@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <canvas id="myCanvas" width="430" height="350">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <div class="myaudio">
+        <audio id="musiqi" src="mymusic.mp3"></audio>
+        <div class="controllers">
+        <i class="fas fasc fa-backward"></i>
+        <i class="fas fasc fa-play" id="play"></i>
+        <i class="fas fasc fa-pause" id="pause"></i>
+        <i class="fas fasc fa-forward"></i>
+        </div>
+
+        <div class="myvolume0">
+            <i class="fas fa-volume-off"></i>
+            <input type="range" min="0" max="100" id="myvolume">
+            <i class="fas fa-volume-up"></i>
+        </div>
+
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
